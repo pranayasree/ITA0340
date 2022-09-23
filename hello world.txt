@@ -1,0 +1,25 @@
+import javax.microedition.lcdui.*;
+import javax.microedition.midlet.*;
+public class HelloWorld extends MIDlet{
+private Form form;
+private Display display;
+public HelloWorld(){
+super();
+}
+public void startApp(){
+form = new Form("Hello World"); String 
+msg = "Hello World!!!!!!!"; 
+form.append(msg);
+display = Display.getDisplay(this); 
+display.setCurrent(form);
+}
+public void pauseApp(){}
+public void destroyApp(boolean unconditional){ notifyDestroyed();
+}
+}
+Date Structures using C ++ B 2018-2019
+Date Structures using C ++ LAB 201
+Department of IT Page 3
+MOBILE APPLICATION DEVELOPMENT LAB 2019-2020
+3. Menu Creation DATE:
+Lets create a program with following kind of me
